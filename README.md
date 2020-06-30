@@ -1,4 +1,4 @@
-# Estudando CSS Flexbox
+# Studying CSS Flexbox
 Studying CSS Flexbox - LerArte
 
 📚 Details
