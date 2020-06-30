@@ -1,0 +1,341 @@
+body, h1, h2, p, ul, li, a {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: "Cambria", Helvetica, Arial, sans-serif;
+    color: #222222;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+* {
+    box-sizing: border-box; /* width total apenas, sem acrescentar o padding, colocando uma margem*/
+}
+
+/* SUB MENU */
+
+.sub-cabecalho-bg {
+    background: #FF6699;
+    color: #FFFF00;
+}
+
+.sub-cabecalho {
+    max-width: 960px;
+    font-family: Caveat;
+    font-size: 1.75em;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+    margin: 0 auto;
+
+}
+
+.sub-cabecalho p {
+    display: flex;
+    margin: 0 10px;
+    padding: 10px 0px;
+    flex-direction: row;
+    max-width: 960px;
+}
+
+menu-logo {
+    max-width: 300px;
+    display: block;
+    margin-right: 100px;
+}
+
+/* MENU */
+
+
+.menu-bg {
+    background: #CEEDED;
+}
+.menu {
+    max-width: 960px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.menu img {
+    margin: 15px;
+    padding-right: 30px;
+}
+
+.menu-nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 100px;
+
+}
+
+.menu-nav li {
+    display: block;
+    padding: 10px;
+    align-self: center;
+    font-size: 1.25em;
+    text-transform: uppercase;
+}
+
+.menu-nav a:hover {
+    background: #FFFF82 ;
+}
+
+.menu-nav a {
+    font-size: 1.25em;
+    display: block;
+    padding: 10px;
+    transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    
+}
+
+
+/* QUEM SOMOS */
+
+.sobre-info-bg {
+    background: white;
+}
+
+.sobre {
+    padding: 50px 15px;
+    max-width: 960px;
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-bottom: 2px solid #000066;
+}
+
+
+.sobre-info h1 {
+    font-size: 2em;
+    margin-bottom: .5em;
+    color: #000066;
+}
+
+.sobre-info {
+    margin-bottom: 1em;
+    line-height: 1.4;
+    flex: 2 1 300px;
+}
+
+.sobre-info p {
+    font-size: 1.25em ;
+    text-align: justify;
+    margin-right: 30px;
+}
+
+
+.sobre-img{
+    flex: 1 1 230px;
+    margin: 0px 5px;
+}
+
+
+    
+
+/* CATEGORIAS */
+
+.livros-bg {
+    background: white;
+}
+
+.livros {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 50px 15px;
+
+
+}
+
+.livros h1 {
+    font-size: 2em;
+    margin-bottom: .5em;
+    color: #000066;
+}
+
+.categoria-container{
+    display:flex;
+    flex-wrap: wrap;
+}
+.categoria-item {
+    flex: 1 1 30%;
+    margin: 10px;
+    align-items: center;
+    justify-items: center;
+    background: #E6E6E6;
+}
+
+.categoria-item:hover{
+    opacity: 0.6;
+}
+.categoria-item h2 {
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 20px;
+}
+
+.mais {
+    margin: 0 auto;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+
+}
+
+.mais, .mais h3 {
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.mais:hover{
+    opacity: 0.8;
+}
+
+.mais h3 {
+    margin: 0 auto;
+    color: white;
+    align-self: center;
+    text-align: center;
+}
+
+.blue {
+    background: #000066;
+}
+
+.pink {
+    background: #FF6699;
+}
+
+.purple {
+    background: #7F7FE0;
+}
+
+.yellow {
+    background: #FFFF00;
+}
+
+
+.blueB {
+    border-top: 30px solid #000066 ;
+}
+
+.pinkB {
+    border-top: 30px solid #FF6699 ;
+}
+
+.purpleB {
+    border-top: 30px solid #7F7FE0;
+}
+
+
+.yellowB {
+    border-top: 30px solid #FFFF00 ;
+} 
+
+
+/* CONTATO */ 
+
+.contato-bg {
+    background: #000066 ;
+    color: white;
+}
+.contato{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.contato-cadastro{
+    flex: 2 1 260px;
+    margin: 10px;
+}
+.contato-cadastro h2 {
+    text-align: center;
+}  
+
+.enviar {
+    display: flex;
+    padding: 20px 15px 10px 20px;
+    align-self: center;
+    align-items: center;
+
+}
+.enviar input {
+    flex: 3 2 80px;
+    font-size: 1.20em;
+    font-family: Cambria;
+    color: black;
+    border: 0px;
+    border-radius: 1%;
+    padding: 15px 10px;
+    margin: 5px;
+    font-style: italic;
+}
+
+.enviar button {
+    align-self: center;
+    flex: 1 4 80px;
+    background: white;
+    color: #000066;
+    border: 0px;
+    padding: 15px 20px;
+    font-size: 1.2em;
+    font-family: Cambria;
+    border-radius: 2px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 1%;
+
+
+}
+
+.enviar button:hover{
+    background: #FFFF82;
+}
+
+.contato-info{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 100px;
+    text-align: right;
+
+
+}
+.contato-info p {
+    padding-top: 10px;
+    font-size: 1.5em;
+    text-align: right;
+
+}
+
+/* FOOTER */ 
+
+.footer p {
+    text-align: center ;
+    font-size: 1.5em;
+    padding: 20px 0px 50px 0px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #000066;
+}
+
