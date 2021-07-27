@@ -1,5 +1,6 @@
 # Studying CSS Flexbox
-Studying CSS Flexbox - LerArte
+
+- Responsive site for study
 
 📚 Details
 
